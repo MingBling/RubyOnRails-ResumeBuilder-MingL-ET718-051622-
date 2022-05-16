@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  Title: MyString
+  Level: MyString
+  resume: one
+
+two:
+  Title: MyString
+  Level: MyString
+  resume: two

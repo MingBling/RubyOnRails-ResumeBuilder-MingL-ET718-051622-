@@ -1,0 +1,14 @@
+
+<%= form_for([@resume, @resume.skills.build]) do |f| %>
+  <p>
+    <%= f.label :title %><br>
+    <%= f.text_field :Title %>
+  </p>
+  <p>
+    <%= f.label :level %><br>
+    <%= f.text_field :Level %>
+  </p>
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
