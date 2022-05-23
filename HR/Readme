@@ -31,3 +31,7 @@ rails generate controller Work_Experiences
 config routes.rb
 
 rails db:migrate RAILS_ENV=development
+
+rails generate model Education title source year_start year_end degree resume:references
+
+rails generate controller Educations
