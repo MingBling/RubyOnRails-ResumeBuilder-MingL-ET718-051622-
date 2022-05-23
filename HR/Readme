@@ -20,4 +20,14 @@ rails generate model Language Title Level resume:references
 
 rails generate controller Languages
 
+config routes.rb
+
+rails db:migrate RAILS_ENV=development
+
+rails generate model Work_Experience title education year_start year_end about resume:references
+
+rails generate controller Work_Experiences
+
+config routes.rb
+
 rails db:migrate RAILS_ENV=development

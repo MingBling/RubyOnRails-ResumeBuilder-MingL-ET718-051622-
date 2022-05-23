@@ -38,10 +38,16 @@
 <%= render 'skills/form' %>
 
 <h2>Languages</h2>
-
+<%= render @resume.languages %>
 
 <h2>Add a Language:</h2>
 <%= render 'languages/form' %>
+
+<h2>Work Experience</h2>
+<%= render @resume.work_experiences %>
+
+<h2>Add an Experience:</h2>
+<%= render 'work_experiences/form' %>
 
 
 
