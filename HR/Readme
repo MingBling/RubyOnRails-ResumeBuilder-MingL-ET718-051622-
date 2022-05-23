@@ -1,5 +1,3 @@
-# RubyOnRails-ResumeBuilder-MingL-ET718-051622-
-
 rails generate controller Welcome index
 
 rails generate scaffold Resume Name Image_Url Role Location Email Phone
@@ -15,5 +13,11 @@ don't forget to rails db: migrate
 rails generate controller Skills
 
 configure skills controller file
+
+rails db:migrate RAILS_ENV=development
+
+rails generate model Language Title Level resume:references
+
+rails generate controller Languages
 
 rails db:migrate RAILS_ENV=development

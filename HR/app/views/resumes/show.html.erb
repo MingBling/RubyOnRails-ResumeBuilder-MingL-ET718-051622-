@@ -1,3 +1,4 @@
+
 <p id="notice"><%= notice %></p>
 
 <p>
@@ -35,6 +36,15 @@
 
 <h2>Add a Skill:</h2>
 <%= render 'skills/form' %>
+
+<h2>Languages</h2>
+<%= render @resume.langauges %>
+
+<h2>Add a Language:</h2>
+
+
+
+
 
 <%= link_to 'Edit', edit_resume_path(@resume) %> |
 <%= link_to 'Back', resumes_path %>
